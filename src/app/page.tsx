@@ -1,7 +1,8 @@
-import Image from "next/image";
+const MyComponent = () => {
+  return(<>
+    <h2 style={{alignItems: "center", padding: "500px", fontSize: "30px"}}>Hello, This is main page</h2>
+  </>);
+};
 
-export default function Home() {
-  return (
-    <h1>Hello world!</h1>
-  );
-}
+export default MyComponent;
+
