@@ -1,5 +1,5 @@
 {
-  "name": "next",
+  "name": "brainwave",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.1"
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.1"
+    "@splidejs/react-splide": "^0.7.12",
+    "@tippyjs/react": "^4.2.6",
+    "@types/node": "20.1.2",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "@types/react-responsive-masonry": "^2.1.0",
+    "@types/scroll-lock": "^2.1.0",
+    "autoprefixer": "^10.4.14",
+    "classnames": "^2.3.2",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.1",
+    "next": "13.4.1",
+    "postcss": "^8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-just-parallax": "^3.1.16",
+    "react-responsive": "^9.0.2",
+    "react-responsive-masonry": "^2.1.7",
+    "react-scroll-into-view": "^1.12.1",
+    "scroll-lock": "^2.1.5",
+    "tailwindcss": "^3.3.2",
+    "typescript": "5.0.4"
   }
 }
