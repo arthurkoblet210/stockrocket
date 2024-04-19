@@ -28,9 +28,9 @@ const Hero = ({}: HeroProps) => {
             <div className="container relative" ref={parallaxRef}>
                 <div className="relative z-1 max-w-[62rem] mx-auto mb-[3.875rem] text-center md:mb-20 lg:mb-[6.25rem]">
                     <h1 className="h1 mb-6">
-                        Explore the Possibilities of&nbsp;AI&nbsp;Chatting with{" "}
+                    Discover AI services for financial market investors at
                         <span className="inline-block relative">
-                            Brainwave
+                        Stock Rockets.
                             <Image
                                 className="absolute top-full left-0 w-full xl:-mt-2"
                                 src="/images/curve.png"
@@ -41,8 +41,8 @@ const Hero = ({}: HeroProps) => {
                         </span>
                     </h1>
                     <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-                        Unleash the power of AI within Brainwave. Upgrade your
-                        productivity with Brainwave, the open AI chat app.
+                    Empower investors through our AI-powered financial services at StockRockets. 
+                    We specialize in providing financial services exclusively.
                     </p>
                     <Button href="/pricing" white>
                         Get started
