@@ -17,7 +17,7 @@ export const features = [
     },
     {
         id: "2",
-        title: "Discover the benefits of AI chat",
+        title: "Discover the benefits of StockRockets AI",
         text: "Brainwave unlocks the potential of AI-powered applications",
         imageUrl: "/images/figures/4.png",
         iconUrl: "/images/icons/recording-01-black.svg",

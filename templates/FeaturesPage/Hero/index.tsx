@@ -10,8 +10,8 @@ const Hero = ({}: HeroProps) => (
             <Heading
                 className="md:mt-12 lg:max-w-[30rem] lg:mt-20"
                 textAlignClassName="md:text-left"
-                titleLarge="Main features of Brainwave"
-                textLarge="Here are some of the core features of Brainwavethat make it stand out from other chat applications"
+                titleLarge="Key features of StockRockets AI"
+                textLarge="Here are some of the standout features of the artificial intelligence in StockRockets that distinguish it from other applications, enhancing our financial services."
             />
             <div className="relative">
                 <Image

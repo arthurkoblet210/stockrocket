@@ -19,7 +19,7 @@ export const benefits = [
     {
         id: "2",
         title: "Connect everywhere",
-        text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+        text: "Connect with the StockRockets AI from anywhere, on any device, making it more accessible and convenient.",
         backgroundUrl: "/images/benefits/card-3.svg",
         iconUrl: "/images/benefits/icon-3.svg",
         imageUrl: "/images/benefits/image-2.png",
