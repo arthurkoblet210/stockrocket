@@ -5,4 +5,4 @@ const Home: NextPage = () => {
     return <HomePage />;
 };
 
-export default Home;
+export default Home ;
