@@ -11,7 +11,7 @@ export const benefits = [
     {
         id: "1",
         title: "Improve everyday",
-        text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+        text: "Our platform utilizes advanced natural language processing for precise responses tailored to financial markets.",
         backgroundUrl: "/images/benefits/card-2.svg",
         iconUrl: "/images/benefits/icon-2.svg",
         imageUrl: "/images/benefits/image-2.png",
