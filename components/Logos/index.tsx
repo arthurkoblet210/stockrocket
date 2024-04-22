@@ -7,10 +7,10 @@ type LogosProps = {
 const Logos = ({ className }: LogosProps) => (
     <div className={className}>
         <h5 className="tagline mb-6 text-center text-n-1/50">
-            Helping people create beautiful content at
+            Helping people choose best trade at
         </h5>
         <ul className="flex">
-            <li className="flex items-center justify-center flex-1 h-[8.5rem]">
+            {/* <li className="flex items-center justify-center flex-1 h-[8.5rem]">
                 <Image
                     src="/images/yourlogo.svg"
                     width={134}
@@ -41,15 +41,15 @@ const Logos = ({ className }: LogosProps) => (
                     height={28}
                     alt="Logo 3"
                 />
-            </li>
-            <li className="flex items-center justify-center flex-1 h-[8.5rem]">
+            </li> */}
+            {/* <li className="flex items-center justify-center flex-1 h-[8.5rem]">
                 <Image
                     src="/images/yourlogo.svg"
                     width={134}
                     height={28}
                     alt="Logo 3"
                 />
-            </li>
+            </li> */}
         </ul>
     </div>
 );

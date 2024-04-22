@@ -17,7 +17,7 @@ const Generating = ({ className }: GeneratingProps) => (
             height={20}
             alt="Loading"
         />
-        AI is generating|
+        StockRocket AI calculating ???
     </div>
 );
 

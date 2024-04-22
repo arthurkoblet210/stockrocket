@@ -62,7 +62,7 @@ const Hero = ({}: HeroProps) => {
                                 />
                             </div>
                             <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[30.5rem] md:-translate-x-1/2" />
-                            <ScrollParallax isAbsolutelyPositioned>
+                            {/* <ScrollParallax isAbsolutelyPositioned>
                                 <ul className="hidden absolute -left-[5.5rem] bottom-[7.625rem] px-1 py-1 bg-[#474060]/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
                                     {[
                                         "/images/icons/home-smile.svg",
@@ -86,7 +86,7 @@ const Hero = ({}: HeroProps) => {
                                     className="hidden absolute -right-[5.5rem] bottom-[11.25rem] w-[18.375rem] xl:flex"
                                     title="Code generation"
                                 />
-                            </ScrollParallax>
+                            </ScrollParallax> */}
                         </div>
                     </div>
                     <div className="relative z-1 h-6 mx-2.5 bg-[#1B1B2E] shadow-xl rounded-b-[1.25rem] lg:h-6 lg:mx-8"></div>

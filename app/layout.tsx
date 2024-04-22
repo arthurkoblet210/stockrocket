@@ -25,9 +25,9 @@ const grotesk = Space_Grotesk({
 });
 
 export const metadata = {
-    title: "Brainwave - AI Landing Page Kit",
+    title: "StockRocket",
     description:
-        "Beautiful AI Landing Page UI Kit for your next website projects",
+        "Empower investors through our AI-powered financial services at StockRockets. We specialize in providing financial services exclusively.",
     icons: {
         icon: "/favicon.ico",
     },
