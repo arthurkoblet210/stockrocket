@@ -2,7 +2,7 @@ export const benefits = [
     {
         id: "0",
         title: "Ask anything",
-        text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+        text: "Our platform enables users to efficiently find financial solutions without the need to search multiple sources.",
         backgroundUrl: "/images/benefits/card-1.svg",
         iconUrl: "/images/benefits/icon-1.svg",
         imageUrl: "/images/benefits/image-2.png",
@@ -27,7 +27,7 @@ export const benefits = [
     {
         id: "3",
         title: "Fast responding",
-        text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+        text: "Our platform enables users to swiftly find answers to their financial inquiries without the need to sift through multiple sources.",
         backgroundUrl: "/images/benefits/card-4.svg",
         iconUrl: "/images/benefits/icon-4.svg",
         imageUrl: "/images/benefits/image-2.png",
@@ -36,7 +36,7 @@ export const benefits = [
     {
         id: "4",
         title: "Ask anything",
-        text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+        text: "Our platform enables users to efficiently find financial solutions without the need to search multiple sources.",
         backgroundUrl: "/images/benefits/card-5.svg",
         iconUrl: "/images/benefits/icon-1.svg",
         imageUrl: "/images/benefits/image-2.png",

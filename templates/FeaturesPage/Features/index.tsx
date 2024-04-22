@@ -8,7 +8,7 @@ const Features = ({}: FeaturesProps) => {
         {
             id: "0",
             title: "Seamless Integration",
-            text: "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.",
+            text: "Featuring intelligent automation and cutting-edge security measures, it presents the ideal solution for financial sector teams striving for enhanced efficiency",
         },
         {
             id: "1",

@@ -1,10 +1,10 @@
 const text =
-    "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+    "Featuring intelligent automation and cutting-edge security measures, it presents the ideal solution for financial sector teams striving for enhanced efficiency";
 
 const content = [
     {
         id: "0",
-        title: "Seamless Integration",
+        title: "Seamless Integration for Financial Markets",
         text: text,
     },
     {
