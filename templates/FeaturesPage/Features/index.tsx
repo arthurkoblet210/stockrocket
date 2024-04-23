@@ -26,8 +26,8 @@ const Features = ({}: FeaturesProps) => {
                 <div className="-mb-16">
                     {[
                         { id: "0", imageUrl: "/images/features/image-1.jpg" },
-                        { id: "1", imageUrl: "/images/features/image-1.jpg" },
-                        { id: "2", imageUrl: "/images/features/image-1.jpg" },
+                        { id: "1", imageUrl: "/images/features/image-2.jpg" },
+                        { id: "2", imageUrl: "/images/features/image-3.jpg" },
                     ].map((item, index) => (
                         <div
                             className="mb-16 md:grid md:grid-cols-2 md:items-center lg:gap-20 xl:gap-40"
