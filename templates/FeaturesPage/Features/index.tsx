@@ -20,6 +20,38 @@ const Features = ({}: FeaturesProps) => {
         },
     ];
 
+    const content1 = [
+        {
+            id: "0",
+            title: "Seamless Integration",
+        },
+        {
+            id: "1",
+            title: "Smart Automation",
+            text: "Featuring intelligent automation and cutting-edge security measures, it presents the ideal solution for financial sector teams striving for enhanced efficiency",
+        },
+        {
+            id: "2",
+            title: "Top-notch Security",
+        },
+    ];
+
+    const content2 = [
+        {
+            id: "0",
+            title: "Seamless Integration",
+        },
+        {
+            id: "1",
+            title: "Smart Automation",
+        },
+        {
+            id: "2",
+            title: "Top-notch Security",
+            text: "Featuring intelligent automation and cutting-edge security measures, it presents the ideal solution for financial sector teams striving for enhanced efficiency",
+        },
+    ];
+
     return (
         <Section>
             <div className="container">
@@ -65,7 +97,9 @@ const Features = ({}: FeaturesProps) => {
                                     Customization Options
                                 </h2>
                                 <ul className="">
-                                    {content.map((item) => (
+                                    {
+                                        
+                                        (index == 0 ? content : index ==1 ? content1 : content2).map((item) => (
                                         <li
                                             className="py-4 border-b border-n-1/5 md:py-6"
                                             key={item.id}
