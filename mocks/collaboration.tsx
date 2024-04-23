@@ -1,5 +1,5 @@
 const text =
-    "Featuring intelligent automation and cutting-edge security measures, it presents the ideal solution for financial sector teams striving for enhanced efficiency";
+    "We announce our successful partners in technology and success, who play a vital role in our continuous success. We are proud of our partnership with you and look forward to building strong and fruitful cooperative relationships.";
 
 const content = [
     {

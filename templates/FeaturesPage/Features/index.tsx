@@ -98,7 +98,6 @@ const Features = ({}: FeaturesProps) => {
                                 </h2>
                                 <ul className="">
                                     {
-                                        
                                         (index == 0 ? content : index ==1 ? content1 : content2).map((item) => (
                                         <li
                                             className="py-4 border-b border-n-1/5 md:py-6"
