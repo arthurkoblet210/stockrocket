@@ -20,8 +20,8 @@ const content = [
 const apps = [
     {
         id: "0",
-        title: "Figma",
-        icon: "/images/collaboration/figma.png",
+        title: "robot",
+        icon: "/images/collaboration/robot.png",
         width: 26,
         height: 36,
     },
