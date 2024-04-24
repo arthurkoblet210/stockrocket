@@ -65,14 +65,14 @@ const apps = [
         title: "aws",
         icon: "/images/collaboration/aws.png",
         width: 36,
-        height: 36,
+        height: 26,
     },
     {
         id: "7",
         title: "Raindrop",
         icon: "/images/collaboration/twelvedata.png",
         width: 36,
-        height: 36,
+        height: 24,
     },
 ];
 
