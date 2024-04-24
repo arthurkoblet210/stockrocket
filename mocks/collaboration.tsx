@@ -22,7 +22,7 @@ const apps = [
         id: "0",
         title: "robot",
         icon: "/images/collaboration/robot.png",
-        width: 36,
+        width: 46,
         height: 36,
     },
     {
