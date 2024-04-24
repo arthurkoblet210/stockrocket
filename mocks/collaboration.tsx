@@ -64,8 +64,8 @@ const apps = [
         id: "6",
         title: "aws",
         icon: "/images/collaboration/aws.png",
-        width: 36,
-        height: 21,
+        width: 46,
+        height: 30,
     },
     {
         id: "7",
