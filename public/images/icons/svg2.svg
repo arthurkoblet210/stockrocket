@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="28" height="28">
+	<title>twelvedata</title>
+	<defs>
+		<image  width="28" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAAXNSR0IB2cksfwAAAHJQTFRFJGnwH2fwE2PwGWXwDWHvAF7vK2zwgKD1TX7yAFvvprz3yNX6y9f6vMz5iaf1////lq72gqL1AFXvrcH4kav22uP8cpf0MW/w0dz7nrX3d5r08/f+AFrvVoXy6O79OXTxP3jxaJDzAF3v4+n99vn+tsf5TGm1rQAAASJJREFUeJy1kttOwzAMhu0c2mYqXaVtiMNFxd7/lbgAMRATFDJ16mlNcFJaRpm4m29s+bP9J04Q/jE8K0Ty1rqIU2hNH/cQJXmsLWBkGZLt8TBCLkMKdwZ5xPtRrGg9pDmpK5S5UXEz6IVvhiBefl6IEhzExJCfoRYAMT4R5De7vlbmfEFFtm3msQZIH+0EBtDJB6vmVJQ8d6SZFSUstdeUNK+ynCuqjV79aQUktfDQX0vctgVAQC39VWTIB8iZlC5Fkn+gvDKFy5AiTKFUPqHyg4EpZFnuFxBsjnY7wHVNM5f3zBy/yjfERQ2w2rS+barJ7rbUWL671OxjAnk67h1Ao/0Fw5U+AUV4XartPsNqZMUIQdBWmg7WLz+dlT3z1zxtX2S1dB26ZhTZAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

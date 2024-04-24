@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="33" height="33">
+	<title>download</title>
+	<defs>
+		<image  width="28" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAAXNSR0IB2cksfwAAAH5QTFRFIy8+HSo6IS09DR8xUFdhSlJcABcsJzNCGig4Mz1KVlxlFSQ26uvt4uPl9vf4y83PfYKIAAAbm56j////cnd/d3yD2NrcAAAAAAAfAAAitbe7o6arAA4nABYrYmhxhouRlJidaW93ABQqiY6UPEZSLjlGQ0tXq66xBhwvw8bJQFq5oQAAAQtJREFUeJzVkW9LwzAQxu/SJllb19nhvw0VKUz3/T+NIvSFk41pdV1d27Rpc3aI6/SF4MsdyRH45XmO40H4o/AgIQK1nZntZUQ/oIVtVUgIgmqBCkwHvS3DmiMaSznGKvJmTykC1JsjkZNuHzXnz3u21nnqNm4SvA/sNzXO9HDWKXuj1EidDBoYrMkXq9IpCvqG6DjHse2JFclKGqb8j7w0nW0gkhMZXfKFGzyxKyB2381kN+JBKvAK0x68i6W9VDvb6XJt8cJ8fXSq63qjsp0yTPAsfg1BA4f5qExPMznr9pw2WQmamATFdb+v9YvqILDb6KLx5zBequGCBKhfqfT0JILw0dD/IjsM+Ang8nMd4wEMIAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>
