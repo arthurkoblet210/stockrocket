@@ -72,7 +72,7 @@ const apps = [
         title: "Raindrop",
         icon: "/images/collaboration/twelvedata.png",
         width: 36,
-        height: 28,
+        height: 30,
     },
 ];
 
