@@ -22,7 +22,7 @@ const apps = [
         id: "0",
         title: "robot",
         icon: "/images/collaboration/robot.png",
-        width: 26,
+        width: 36,
         height: 36,
     },
     {
@@ -57,22 +57,22 @@ const apps = [
         id: "5",
         title: "Protopie",
         icon: "/images/collaboration/squa.png",
-        width: 34,
-        height: 34,
+        width: 36,
+        height: 36,
     },
     {
         id: "6",
-        title: "Framer",
+        title: "aws",
         icon: "/images/collaboration/aws.png",
-        width: 26,
-        height: 34,
+        width: 36,
+        height: 36,
     },
     {
         id: "7",
         title: "Raindrop",
         icon: "/images/collaboration/twelvedata.png",
-        width: 38,
-        height: 32,
+        width: 36,
+        height: 36,
     },
 ];
 
