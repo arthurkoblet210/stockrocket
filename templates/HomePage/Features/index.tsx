@@ -62,14 +62,14 @@ const Features = ({}: FeaturesProps) => {
                                             className="absolute left-4 right-4 bottom-4 bg-n-8/95 md:left-8 md:right-8 md:bottom-8"
                                             title={item.notification}
                                         /> */}
-                                        <div className="absolute top-6 right-6 flex items-center justify-center w-15 h-15 bg-n-1 rounded-full xl:top-8 xl:right-8">
+                                        {/* <div className="absolute top-6 right-6 flex items-center justify-center w-15 h-15 bg-n-1 rounded-full xl:top-8 xl:right-8">
                                             <Image
                                                 src={item.iconUrl}
                                                 width={24}
                                                 height={24}
                                                 alt="Icon"
                                             />
-                                        </div>
+                                        </div> */}
                                         <div className="hidden absolute top-0 left-full ml-5 w-full h-full bg-n-8/50 border border-n-1/10 rounded-[2.5rem] md:block"></div>
                                     </div>
                                 </div>
