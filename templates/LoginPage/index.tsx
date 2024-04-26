@@ -1,14 +1,17 @@
 "use client";
 
+import { useSearchParams } from "next/navigation";
 import Button from "@/components/Button";
 import Image from "@/components/Image";
 import Layout from "@/components/Layout";
 import Section from "@/components/Section";
 
 const LoginPage = ({}) => {
+    const searchParams = useSearchParams();
+    const signUp = searchParams.has("new");
 
     return (
-        <Layout >
+        <Layout hideFooter>
             <Section className="flex min-h-[calc(100vh-4.8125rem)] overflow-hidden lg:min-h-[calc(100vh-5.3125rem)]">
                 <div className="container relative z-2 max-w-[68rem] m-auto lg:flex lg:justify-between">
                     <div className="max-w-[32.875rem] mx-auto mb-12 text-center md:mb-16 lg:flex lg:flex-col lg:justify-around lg:max-w-[23.75rem] lg:m-0 lg:text-left">
@@ -25,6 +28,22 @@ const LoginPage = ({}) => {
                         action=""
                     >
                         <div className="px-9 py-10 bg-n-8 rounded-[1.4375rem] lg:px-16 lg:py-[3.25rem]">
+                            {signUp && (
+                                <div className="relative mb-4 lg:mb-5">
+                                    <Image
+                                        className="absolute top-4 left-0 w-6 pointer-events-none"
+                                        src="/images/icons/mail-01.svg"
+                                        width={24}
+                                        height={24}
+                                        alt="Mail"
+                                    />
+                                    <input
+                                        className="w-full h-14 pl-12 bg-transparent border-b border-n-1/15 font-light placeholder:text-n-4 outline-none transition-colors focus:border-n-1/30"
+                                        type="text"
+                                        placeholder="Name"
+                                    />
+                                </div>
+                            )}
                             <div className="relative mb-4 lg:mb-5">
                                 <Image
                                     className="absolute top-4 left-0 w-6 pointer-events-none"
@@ -53,6 +72,9 @@ const LoginPage = ({}) => {
                                     placeholder="Password"
                                 />
                             </div>
+                            <Button className="w-full" white>
+                                {signUp ? "Sign up now" : "Sign in"}
+                            </Button>
                             <div className="mt-10">
                                 <div className="caption mb-6 text-n-4 text-center">
                                     Or start your Brainwave with
