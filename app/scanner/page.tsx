@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
-import LoginPage from "@/templates/LoginPage";
+import ScannerPage from "@/templates/ScannerPage";
 
-const Login: NextPage = () => {
-    return <LoginPage />;
+const Scanner: NextPage = () => {
+    return <ScannerPage />;
 };
 
-export default Login;
+export default Scanner;
     
