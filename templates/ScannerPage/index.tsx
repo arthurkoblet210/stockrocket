@@ -58,7 +58,7 @@ const ScannerPage = ({ }) => {
                                         {/* Replace with your data or map through your dataset */}
                                         <TableRow>
                                             {value1.map((item, index) => (
-                                                <TableCell key = {index} className="px-6 py-4 whitespace-nowrap text-sm text-white">{item}</TableCell>
+                                                <TableCell key = {index} style={{color: "white"}}>{item}</TableCell>
                                             ))}
                                         </TableRow>
                                         {/* Add more rows as needed */}
