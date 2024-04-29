@@ -25,31 +25,31 @@ const ScannerPage = ({ }) => {
                                 <Table className="min-w-full">
                                     <TableHead>
                                         <TableRow>
-                                            <TableCell className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                                            <TableCell style={{ color: 'white' }}>
                                                 Time
                                             </TableCell>
-                                            <TableCell className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                                            <TableCell style={{ color: 'white' }}>
                                                 Symbol
                                             </TableCell>
-                                            <TableCell className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                                            <TableCell style={{ color: 'white' }}>
                                                 Company Name
                                             </TableCell>
-                                            <TableCell className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                                            <TableCell style={{ color: 'white' }}>
                                                 Ask
                                             </TableCell>
-                                            <TableCell className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                                            <TableCell style={{ color: 'white' }}>
                                                 Last
                                             </TableCell>
-                                            <TableCell className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                                            <TableCell style={{ color: 'white' }}>
                                                 Net Change
                                             </TableCell>
-                                            <TableCell className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                                            <TableCell style={{ color: 'white' }}>
                                                 Volume
                                             </TableCell>
-                                            <TableCell className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                                            <TableCell style={{ color: 'white' }}>
                                                 Trades
                                             </TableCell>
-                                            <TableCell className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                                            <TableCell style={{ color: 'white' }}>
                                                 $Volume
                                             </TableCell>
                                         </TableRow>
