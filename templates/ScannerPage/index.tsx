@@ -11,15 +11,11 @@ const ScannerPage = ({ }) => {
     const searchParams = useSearchParams();
     const signUp = searchParams.has("new");
 
-    const value = 
-        { time: "12:34:56", symbol: "AZO", companyName: "AutoZone Inc", ask: 3000, last: 48934, netChange: "-25.4", volume: 34, trades: 23, volume1: 21 };
+    const value = { time: "12:34:56", symbol: "AZO", companyName: "AutoZone Inc", ask: 3000, last: 48934, netChange: "-25.4", volume: 34, trades: 23, volume1: 21 };
     const value1 = Object.values(value);
-    console.log(Object.values(value));
+    console.log(value1);
 
     return (
-
-
-
         <Layout>
             <Section className="min-h-[calc(100vh-4.8125rem)] lg:min-h-[calc(100vh-5.3125rem)]">
                 <div className="container">
@@ -61,8 +57,8 @@ const ScannerPage = ({ }) => {
                                     <TableBody>
                                         {/* Replace with your data or map through your dataset */}
                                         <TableRow>
-                                            {value1.map((item) => (
-                                                <TableCell className="px-6 py-4 whitespace-nowrap text-sm text-white">{item}</TableCell>
+                                            {value1.map((item, index) => (
+                                                <TableCell key = {index} className="px-6 py-4 whitespace-nowrap text-sm text-white">{item}</TableCell>
                                             ))}
                                         </TableRow>
                                         {/* Add more rows as needed */}
