@@ -32,7 +32,7 @@ const ScannerPage = ({ }) => {
         <Section className="min-h-[calc(100vh-4.8125rem)] lg:min-h-[calc(100vh-5.3125rem)]">
             <div className="container">
                 <div className="p-0.25 bg-gradient-to-b from-[#D77DEE]/90 to-n-1/15">
-                    <div className="p-[0.1875rem] bg-[#242429] h-[90vh] overflow-scroll">
+                    <div className="p-[0.1875rem] bg-[#242429] h-[90vh]">
                         {/* <TableContainer className="">
                             <Table className="min-w-full">
                                 <TableHead>

@@ -1,4 +1,3 @@
-import * as React from 'react';
 import Box from '@mui/material/Box';
 import { DataGridPro } from '@mui/x-data-grid-pro';
 import { useDemoData } from '@mui/x-data-grid-generator';
@@ -8,8 +7,8 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 const DataGridProDemo = () => {
   const { data } = useDemoData({
     dataSet: 'Commodity',
-    rowLength: 100000,
-    editable: true,
+    rowLength: 40,
+    editable: false,
   });
 
   const darkTheme = createTheme({
@@ -20,7 +19,7 @@ const DataGridProDemo = () => {
 
   return (
     <ThemeProvider theme={darkTheme}>
-    <Box sx={{ height: 520, width: '100%' }}>
+    <Box sx={{ height: '90vh', width: '100%' }}>
       <DataGridPro
         {...data}
         loading={data.rows.length === 0}
