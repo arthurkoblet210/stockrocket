@@ -8,8 +8,9 @@ import Layout from "@/components/Layout";
 import Section from "@/components/Section";
 import { json } from 'stream/consumers';
 import { DataGridProDemo } from './newTable'
-import { getInitialValue } from './stock';
+import { getInitialValue, StockPrice } from './stock';
 import { useEffect, useState } from 'react';
+import {DataGridPremiumDemo} from './premiumTable'
 
 const ScannerPage = ({ }) => {
   const searchParams = useSearchParams();
@@ -17,7 +18,6 @@ const ScannerPage = ({ }) => {
   const [initialData, setInitialData] = useState([]);
   const value = { time: "12:34:56", symbol: "AZO", companyName: "AutoZone Inc", ask: 3000, last: 48934, netChange: "-25.4", volume: 34, trades: 23, volume1: 21, wfdwef: 113 };
   const value1 = Object.values(value);
-  console.log(initialData)
   useEffect(() => {
     const getInitialData = async () => {
       const data = await getInitialValue();
@@ -32,7 +32,7 @@ const ScannerPage = ({ }) => {
         <Section className="min-h-[calc(100vh-4.8125rem)] lg:min-h-[calc(100vh-5.3125rem)]">
             <div className="container">
                 <div className="p-0.25 bg-gradient-to-b from-[#D77DEE]/90 to-n-1/15">
-                    <div className="p-[0.1875rem] bg-[#242429] h-[90vh]">
+                    <div className="p-[0.1875rem] bg-[#15131d] h-[90vh]">
                         {/* <TableContainer className="">
                             <Table className="min-w-full">
                                 <TableHead>
@@ -81,7 +81,8 @@ const ScannerPage = ({ }) => {
                                 </TableBody>
                             </Table>
                         </TableContainer> */}
-                        <DataGridProDemo />
+                        <DataGridPremiumDemo />
+                        <StockPrice />
                     </div>
                 </div>
             </div>

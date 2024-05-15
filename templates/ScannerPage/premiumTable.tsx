@@ -1,0 +1,73 @@
+
+import Box from '@mui/material/Box';
+import { useState } from 'react';
+import { getInitialValue } from './stock';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import {
+  DataGridPremium,
+  GridToolbar,
+  useGridApiRef,
+  useKeepGroupedColumnsHidden,
+} from '@mui/x-data-grid-premium';
+import test from './test.json'
+import { useDemoData } from '@mui/x-data-grid-generator';
+import { useEffect } from 'react';
+
+const darkTheme = createTheme({
+  palette: {
+    mode: 'dark', // Set theme mode to dark
+  },
+  components: {
+    // Target the MuiDataGrid component for customization
+    MuiDataGrid: {
+      styleOverrides: {
+        root: {
+          '& .MuiDataGrid-cell': {
+            fontSize: '1rem', // Customize the font size of grid cells (rows)
+          },
+        },
+      },
+    },
+  },
+});
+
+
+
+const DataGridPremiumDemo = () => {
+  const [tableData, setTableData] = useState({...test, rows: []});
+
+  const { data, loading } = useDemoData({
+    dataSet: 'Commodity',
+    rowLength: 4,
+    maxColumns: 4
+  });
+
+  useEffect(() => {
+    const getInitialData = async () => {
+      const dataValue = await getInitialValue();
+      setTableData({...test, rows: [...dataValue]});
+    };
+
+    getInitialData();
+  }, []);
+
+  
+  console.log(data, tableData)
+
+
+  return (
+    <ThemeProvider theme={darkTheme}>
+    <Box sx={{ height: '89.3vh', width: '100%' }}>
+      <DataGridPremium
+        {...tableData}
+        loading={loading}
+        checkboxSelection
+        slots={{ toolbar: GridToolbar }}
+        getRowId={(row) => row.symbol}
+      />
+    </Box>
+    </ThemeProvider>
+  );
+}
+
+export {DataGridPremiumDemo}

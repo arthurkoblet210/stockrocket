@@ -4,11 +4,11 @@ const getStockData = async (symbol = "", apiKey = "") => {
 
     try {
         const response = await axios.get(endpoint);
-        console.log(response.data);
+        // console.log(response.data);
         return response.data; // The data you're interested in
         
     } catch (error) {
-        console.error("Error fetching stock data:", error);
+        console.error("Error fetching stock data:", error); 
         return null; // Handle error appropriately
     }
 };
