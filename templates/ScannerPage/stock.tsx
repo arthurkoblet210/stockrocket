@@ -16,7 +16,7 @@ const getInitialValue = async () => {
 };
 
 
-const StockPrice = ({ symbol = "AAPL", apiKey = "1e88db3b54c54322a45623de0de83e39" }) => {
+const StockPrice = ({ symbol = "AAPL", apiKey = process.env.REACT_APP_TWELVE_DATA_API_KEY }) => {
   let historyprice = "";
   const [price, setPrice] = useState(null);
 
@@ -73,5 +73,5 @@ const StockPrice = ({ symbol = "AAPL", apiKey = "1e88db3b54c54322a45623de0de83e3
 };
 
 
-  
+
 export {getInitialValue, StockPrice};

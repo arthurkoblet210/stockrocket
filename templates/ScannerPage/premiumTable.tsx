@@ -32,8 +32,8 @@ const DataGridPremiumDemo = () => {
 
   useEffect(() => {
     const getInitialData = async () => {
-      const dataValue = await getInitialValue();
-      setTableData({...test, rows: [...dataValue]});
+      const dataValue: any = await getInitialValue(); // Ensure this returns the correct type
+      setTableData({...test, rows: [...(dataValue as any[])]});
     };
 
     getInitialData();
