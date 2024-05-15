@@ -16,19 +16,7 @@ import { useEffect } from 'react';
 const darkTheme = createTheme({
   palette: {
     mode: 'dark', // Set theme mode to dark
-  },
-  components: {
-    // Target the MuiDataGrid component for customization
-    MuiDataGrid: {
-      styleOverrides: {
-        root: {
-          '& .MuiDataGrid-cell': {
-            fontSize: '1rem', // Customize the font size of grid cells (rows)
-          },
-        },
-      },
-    },
-  },
+  }
 });
 
 
