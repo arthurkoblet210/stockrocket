@@ -4,19 +4,19 @@ import { useEffect, useState } from 'react';
 
 
 const getInitialValue = async () => {
-  const endpoint = `https://api.twelvedata.com/stocks?exchange=NASDAQ&apikey=${process.env.REACT_APP_TWELVE_DATA_API_KEY}`;
+  const endpoint = `https://api.twelvedata.com/stocks?exchange=NASDAQ&apikey=${process.env.NEXT_PUBLIC_TWELVE_DATA_API_KEY}`;
   try {
-    // console.log(process.env.REACT_APP_TWELVEDATA_API);
+    // console.log(process.env.TWELVE_DATA_API_KEY);
     const response = await axios.get(endpoint);
     return response.data.data; // Return the data directly
   } catch (error) {
     console.error("Error fetching stock data:", error);
     return null; // Return null in case of an error
   }
-};
+};  
 
 
-const StockPrice = ({ symbol = "AAPL", apiKey = process.env.REACT_APP_TWELVE_DATA_API_KEY }) => {
+const StockPrice = ({ symbol = "AAPL", apiKey = process.env.NEXT_PUBLIC_TWELVE_DATA_API_KEY }) => {
   let historyprice = "";
   const [price, setPrice] = useState(null);
 
@@ -74,4 +74,4 @@ const StockPrice = ({ symbol = "AAPL", apiKey = process.env.REACT_APP_TWELVE_DAT
 
 
 
-export {getInitialValue, StockPrice};
+export {getInitialValue, StockPrice}; 

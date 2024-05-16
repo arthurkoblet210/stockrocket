@@ -51,9 +51,6 @@ const Community = ({}: CommunityProps) => {
                                                 <h6 className="h6">
                                                     {comment.name}
                                                 </h6>
-                                                <div className="caption text-n-1/25">
-                                                    {comment.role}
-                                                </div>
                                             </div>
                                         </div>
                                     </div>

@@ -13,7 +13,7 @@ const Hero = ({}: HeroProps) => (
                 className="md:mb-15"
                 textAlignClassName="text-center"
                 titleLarge="Roadmap"
-                textLarge="This document provides a comprehensive guide to developing a chat AI app, including its key features and development steps."
+                textLarge="This a comprehensive guide to developing a scanner and stockrocket ai, including its key features and development steps."
             >
                 <Button
                     className="mt-8 md:mt-12"
@@ -30,13 +30,13 @@ const Hero = ({}: HeroProps) => (
                         <div className="relative h-[30.625rem] rounded-b-[0.875rem] overflow-hidden">
                             <Image
                                 className="absolute top-1/2 left-1/2 max-w-none -translate-x-[51%] -translate-y-[58%]"
-                                src="/images/roadmap/hero.png"
+                                src="/images/roadmap/hero1.png"
                                 width={654}
                                 height={932}
                                 alt="Hero"
                             />
                         </div>
-                        <div className="hidden absolute -top-20 left-[14%] md:block pointer-events-none">
+                        {/* <div className="hidden absolute -top-20 left-[14%] md:block pointer-events-none">
                             <Image
                                 className="w-full"
                                 src="/images/roadmap/coins.png"
@@ -44,8 +44,8 @@ const Hero = ({}: HeroProps) => (
                                 height={190}
                                 alt="Coins"
                             />
-                        </div>
-                        <Generating className="absolute left-4 right-4 bottom-5 border border-n-1/10 md:left-1/2 md:right-auto md:bottom-8 md:w-[30.5rem] md:-translate-x-1/2" />
+                        </div> */}
+                        {/* <Generating className="absolute left-4 right-4 bottom-5 border border-n-1/10 md:left-1/2 md:right-auto md:bottom-8 md:w-[30.5rem] md:-translate-x-1/2" /> */}
                     </div>
                 </div>
                 <div className="relative z-1 h-6 mx-2.5 bg-[#1B1B2E] shadow-xl rounded-b-[1.25rem] lg:h-6 lg:mx-8"></div>

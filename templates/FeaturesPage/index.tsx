@@ -15,7 +15,6 @@ const FeaturesPage = () => {
             <Benefits />
             <Features />
             <Community />
-            <Services containerClassName="md:pb-10" />
             <Join />
         </Layout>
     );

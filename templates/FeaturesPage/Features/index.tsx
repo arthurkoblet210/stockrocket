@@ -7,48 +7,48 @@ const Features = ({}: FeaturesProps) => {
     const content = [
         {
             id: "0",
-            title: "Seamless Integration",
-            text: "Featuring intelligent automation and cutting-edge security measures, it presents the ideal solution for financial sector teams striving for enhanced efficiency",
+            title: "Professional Scanner",
+            text: "Our platform comes with an advanced and customisable scanner to sift through vast amounts of stock data. Based on a variety of stock scan criteria - such as price, volume, sectors, market trends - the scanner helps you find the most profitable investment opportunities effectively.",
         },
         {
             id: "1",
-            title: "Smart Automation",
+            title: "Prediction using AI",
         },
         {
             id: "2",
-            title: "Top-notch Security",
+            title: "Connection Anyway",
         },
     ];
 
     const content1 = [
         {
             id: "0",
-            title: "Seamless Integration",
+            title: "Professional Scanner",
         },
         {
             id: "1",
-            title: "Smart Automation",
-            text: "Featuring intelligent automation and cutting-edge security measures, it presents the ideal solution for financial sector teams striving for enhanced efficiency",
+            title: "Prediction using AI",
+            text: "With our sophisticated AI algorithms, we leverage machine learning to predict stock trends and provide investment guidance. The AI analyses historical data and recognites trends to make accurate predictions about future price movements. This AI-based forecasting makes investment strategies more reliable and less risky.",
         },
         {
             id: "2",
-            title: "Top-notch Security",
+            title: "Connection Anyway",
         },
     ];
 
     const content2 = [
         {
             id: "0",
-            title: "Seamless Integration",
+            title: "Professional Scanner",
         },
         {
             id: "1",
-            title: "Smart Automation",
+            title: "Prediction using AI",
         },
         {
             id: "2",
-            title: "Top-notch Security",
-            text: "Featuring intelligent automation and cutting-edge security measures, it presents the ideal solution for financial sector teams striving for enhanced efficiency",
+            title: "Connection Anyway",
+            text: "Stay in sync with the market wherever you are, whenever you want. Our platform is designed to be accessible from any device, be it desktop, tablet or mobile. Whether you are at home or on-the-go, you can always stay connected with the latest trading information.",
         },
     ];
 
@@ -94,7 +94,7 @@ const Features = ({}: FeaturesProps) => {
                                 }
                             >
                                 <h2 className="h2 mb-4 md:mb-8">
-                                    Customization Options
+                                    Three Main Features
                                 </h2>
                                 <ul className="">
                                     {

@@ -42,14 +42,14 @@ const DataGridPremiumDemo = () => {
   
   console.log(data, tableData)
 
-
+  
   return (
     <ThemeProvider theme={darkTheme}>
     <Box sx={{ height: '89.3vh', width: '100%' }}>
       <DataGridPremium
         {...tableData}
         loading={loading}
-        checkboxSelection
+        checkboxSelection 
         slots={{ toolbar: GridToolbar }}
         getRowId={(row) => row.symbol}
       />

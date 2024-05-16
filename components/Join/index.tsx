@@ -10,9 +10,9 @@ const Join = ({}: JoinProps) => (
             <div className="relative max-w-[43.125rem] mx-auto py-8 md:py-14 xl:py-0">
                 <div className="relative z-1 text-center">
                     <h1 className="h1 mb-6">
-                        Be part of the future of{" "}
+                    Achieve success with{" "}
                         <span className="inline-block relative">
-                            Brainwave
+                        StockRocket AI
                             <Image
                                 className="absolute top-full left-0 w-full"
                                 src="/images/curve.png"
@@ -23,8 +23,8 @@ const Join = ({}: JoinProps) => (
                         </span>
                     </h1>
                     <p className="body-1 mb-8 text-n-4">
-                        Unleash the power of AI within Brainwave. Upgrade your
-                        productivity with Brainwave, the open AI chat app.
+                    Unleash the your power with StockRocket AI. 
+                    If you upgrade and use it, it will greatly aid you in the stock competition.
                     </p>
                     <Button href="/pricing" white>
                         Get started

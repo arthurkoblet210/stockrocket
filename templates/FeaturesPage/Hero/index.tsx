@@ -10,8 +10,8 @@ const Hero = ({}: HeroProps) => (
             <Heading
                 className="md:mt-12 lg:max-w-[30rem] lg:mt-20"
                 textAlignClassName="md:text-left"
-                titleLarge="Key features of StockRockets AI"
-                textLarge="Here are some of the standout features of the artificial intelligence in StockRockets that distinguish it from other applications, enhancing our financial services."
+                titleLarge="Features of StockRocket"
+                textLarge="Here are some of the remarkable features that distinguish StockRockets from other applications and elevate financial services."
             />
             <div className="relative">
                 <Image
