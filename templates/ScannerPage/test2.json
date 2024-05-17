@@ -1,0 +1,28 @@
+{
+    "rows": [
+        {
+            "id": "1a8c1d10-9730-5d22-bcf8-8e1edae03341",
+            "desk": "D-6824",
+            "commodity": "Sugar No.14",
+            "traderName": "Owen Tucker"
+        },
+        {
+            "id": "d484a20e-0e09-566b-aab8-8a87904f6c50",
+            "desk": "D-9406",
+            "commodity": "Adzuki bean",
+            "traderName": "Alexander Mullins"
+        },
+        {
+            "id": "176c198d-02f3-5d9f-81ab-7525b2ca9d23",
+            "desk": "D-7196",
+            "commodity": "Frozen Concentrated Orange Juice",
+            "traderName": "Gussie Evans"
+        },
+        {
+            "id": "a7df0eaf-6212-5150-9d8d-90b112f73c1e",
+            "desk": "D-7255",
+            "commodity": "Frozen Concentrated Orange Juice",
+            "traderName": "Carolyn Padilla"
+        }
+    ]
+}

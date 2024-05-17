@@ -2,7 +2,7 @@
     "columns": 
     [
         {
-            "field": "id",
+            "field": "id",      
             "headerName": "ID"
         },
         {

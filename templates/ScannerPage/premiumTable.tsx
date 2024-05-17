@@ -1,4 +1,3 @@
-
 import Box from '@mui/material/Box';
 import { useState } from 'react';
 import { getInitialValue } from './stock';
@@ -33,7 +32,7 @@ const DataGridPremiumDemo = () => {
   useEffect(() => {
     const getInitialData = async () => {
       const dataValue: any = await getInitialValue(); // Ensure this returns the correct type
-      setTableData({...test, rows: [...(dataValue as any[])]});
+      setTableData({...test, rows: [...(dataValue as never[])]});
     };
 
     getInitialData();
@@ -51,7 +50,7 @@ const DataGridPremiumDemo = () => {
         loading={loading}
         checkboxSelection 
         slots={{ toolbar: GridToolbar }}
-        getRowId={(row) => row.symbol}
+        getRowId={(row: any) => row.symbol}
       />
     </Box>
     </ThemeProvider>

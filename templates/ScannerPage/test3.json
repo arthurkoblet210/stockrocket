@@ -1,0 +1,25 @@
+{
+    "columns": [
+        {
+            "field": "id",
+            "hide": true
+        },
+        {
+            "field": "desk",
+            "headerName": "Desk",
+            "width": 110
+        },
+        {
+            "field": "commodity",
+            "headerName": "Commodity",
+            "width": 180,
+            "editable": false
+        },
+        {
+            "field": "traderName",
+            "headerName": "Trader Name",
+            "width": 120,
+            "editable": false
+        }
+    ]
+}

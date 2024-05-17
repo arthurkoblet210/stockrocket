@@ -51,6 +51,7 @@ const Community = ({}: CommunityProps) => {
                                                 <h6 className="h6">
                                                     {comment.name}
                                                 </h6>
+                                                
                                             </div>
                                         </div>
                                     </div>
