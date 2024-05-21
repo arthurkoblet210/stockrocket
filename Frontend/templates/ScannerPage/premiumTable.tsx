@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 import { useState } from 'react';
-import { getInitialValue } from './stock';
+import { getInitialValue, stockPrice } from './stock';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import {
   DataGridPremium,
@@ -33,8 +33,12 @@ const DataGridPremiumDemo = () => {
     const getInitialData = async () => {
       const dataValue: any = await getInitialValue(); // Ensure this returns the correct type
       setTableData({...test, rows: [...(dataValue as never[])]});
+      console.log(stockPrice())
+      const symbolList = dataValue.map((item: any) => {
+      // loop for all of symbol
+      });
     };
-
+    
     getInitialData();
   }, []);
 
