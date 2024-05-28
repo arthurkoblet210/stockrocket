@@ -1,14 +1,14 @@
 import { loadStripe } from '@stripe/stripe-js';
 import { CardElement, Elements, useStripe, useElements } from '@stripe/react-stripe-js';
 
-//const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY);
+// const stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY);
 const stripePromise = loadStripe('1e88db3b54c54322a45623de0de83e39');
 
 const CheckoutForm = () => {
   const stripe = useStripe();
   const elements = useElements();
 
-  const handleSubmit = async (event) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     if (!stripe || !elements) {
@@ -25,9 +25,16 @@ const CheckoutForm = () => {
 
     const { clientSecret } = await res.json();
 
+    const cardElement = elements.getElement(CardElement);
+
+    if (!cardElement) {
+      console.error('Card Element not found');
+      return;
+    }
+
     const result = await stripe.confirmCardPayment(clientSecret, {
       payment_method: {
-        card: elements.getElement(CardElement),
+        card: cardElement,
         billing_details: {
           name: 'Jenny Rosen',
         },
@@ -37,7 +44,7 @@ const CheckoutForm = () => {
     if (result.error) {
       console.log(result.error.message);
     } else {
-      if (result.paymentIntent.status === 'succeeded') {
+      if (result.paymentIntent?.status === 'succeeded') {
         console.log('Money is in the bank!');
       }
     }
