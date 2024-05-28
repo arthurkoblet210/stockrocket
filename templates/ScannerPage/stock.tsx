@@ -2,7 +2,8 @@ import axios from 'axios';
 
 
 const getInitialValue = async () => {
-  const endpoint = `https://api.twelvedata.com/stocks?exchange=NASDAQ&apikey=${process.env.NEXT_PUBLIC_TWELVE_DATA_API_KEY}`;
+  //const endpoint = `https://api.twelvedata.com/stocks?exchange=NASDAQ&apikey=${process.env.NEXT_PUBLIC_TWELVE_DATA_API_KEY}`;
+  const endpoint = `https://api.twelvedata.com/stocks?exchange=NASDAQ&apikey=1e88db3b54c54322a45623de0de83e39`;
   try {
     // console.log(process.env.TWELVE_DATA_API_KEY);
     const response = await axios.get(endpoint);
@@ -17,7 +18,8 @@ const getInitialValue = async () => {
 const stockPrice = (symbol = "AAPL") => {
 
   // Create a WebSocket connection to the Twelve Data endpoint
-  const ws = new WebSocket(`wss://ws.twelvedata.com/v1/quotes/price?apikey=${process.env.NEXT_PUBLIC_TWELVE_DATA_API_KEY}`);
+  const ws = new WebSocket(`wss://ws.twelvedata.com/v1/quotes/price?apikey=1e88db3b54c54322a45623de0de83e39`);
+  //const ws = new WebSocket(`wss://ws.twelvedata.com/v1/quotes/price?apikey=${process.env.NEXT_PUBLIC_TWELVE_DATA_API_KEY}`);
 
 
   // Event listener for when the WebSocket connection is open
